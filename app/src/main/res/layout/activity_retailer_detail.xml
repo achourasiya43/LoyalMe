@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_retailer_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:background="#EDEDEB"
+    android:fillViewport="true"
+    android:smoothScrollbar="true"
+    android:padding="10dp"
+    tools:context="com.app.loyalme.RetailerDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_background_white">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_shopImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:scaleType="centerCrop"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:alpha=".8"
+                    android:background="#8000">
+
+                    <TextView
+                        android:id="@+id/tv_distance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:layout_marginLeft="5dp"
+                        android:text="2.3 Km"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="100dp"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentLeft="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_shopName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#E65641"
+                        android:textSize="18sp"
+                        android:text="Mindiii Technologies"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:id="@+id/tv_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:text="dharmraj.mindiii@gmail.com"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ico_badge"/>
+
+                    <TextView
+                        android:id="@+id/tv_point"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/white"
+                        android:layout_gravity="center"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:text="500 Points"/>
+
+                </FrameLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_weight="2">
+
+                <TextView
+                    android:id="@+id/tv_contactDetail"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@drawable/rounded_broder_primary"
+                    android:textColor="@color/colorPrimary"
+                    android:text="Contact Details"
+                    android:textSize="14sp"/>
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"/>
+
+
+                <TextView
+                    android:id="@+id/tv_checkOffer"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/rounded_background_primary"
+                    android:text="Check Offer"
+                    android:textSize="14sp"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/contactDetail_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_background_white">
+
+                <ImageView
+                    android:id="@+id/iv_map"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/gray_rounded_corner"
+                    android:padding="1dp"
+                    android:clickable="true"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:id="@+id/tv_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="7/11 ManoramaGang indore, pin 452001 Maydha Pradesh, India"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_phoneNo"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/rounded_background_white"
+                android:text="Call : N/A"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/offerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/tv_message"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/LOADING"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:background="@drawable/rounded_background_white"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:scrollbars="none" />
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Loyal Me</string>
+
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">SignUp</string>
+    <string name="phone_no">Phone Number</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="create_an_account">Dont have an account?</string>
+    <string name="already_have_account">Already have an account?</string>
+
+    <string name="business_name">Business Name</string>
+    <string name="business_address">Business Address</string>
+    <string name="email">Email</string>
+    <string name="fullname">Full Name</string>
+    <string name="submit">Submit</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="location">Location</string>
+
+    <string name="aggrement">I have read and agree with the terms of use and privacy policy.</string>
+    <string name="title_activity_main">Ticket</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+
+    <!-- Activity actions-->
+    <string name="retailer_detail_activity">Retailer Details</string>
+    <string name="activity_sample">Full Activity Sample</string>
+
+    <string name="no_internet_connection">No Internet connection. Make sure that Wi-Fi or cellular mobile data is turned on, then try again.</string>
+</resources>

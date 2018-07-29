@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearLayout">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/red_broder_rounded"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/gray_rounded_corner"
+                        android:scaleType="centerCrop"
+                        android:id="@+id/imageView" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ico_camera_dialog" />
+
+                </FrameLayout>
+
+                <EditText
+                    android:id="@+id/ed_offerTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="Offer Title"
+                    android:padding="5dp"
+                    android:textSize="14sp"
+                    android:background="@drawable/gray_broder_rounded_with_fill"/>
+
+                <EditText
+                    android:id="@+id/ed_rewardPoint"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="10dp"
+                    android:inputType="numberDecimal"
+                    android:hint="Reward Points"
+                    android:padding="5dp"
+                    android:textSize="14sp"
+                    android:background="@drawable/gray_broder_rounded_with_fill"/>
+
+
+                <RelativeLayout
+                    android:id="@+id/expiryDateRelativeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/gray_broder_rounded_with_fill">
+
+                    <TextView
+                        android:id="@+id/ed_expiryDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center"
+                        android:padding="5dp"
+                        android:text="Expiry Date"/>
+
+                    <ImageView
+                        android:id="@+id/iv_calender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/ico_calender_dialog"/>
+
+
+                </RelativeLayout>
+
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/btn_done"
+                    android:layout_width="130dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="20dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:text="Done"
+                    android:textAllCaps="false"
+                    android:background="@drawable/button_gradent_red"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="top|center"
+            android:src="@drawable/offer_dialog_icon"/>
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_margin="10dp"
+            android:src="@drawable/ico_close_dialog"/>
+
+    </FrameLayout>
+
+</LinearLayout>

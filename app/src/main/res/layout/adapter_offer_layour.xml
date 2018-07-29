@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:id="@+id/container">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/gray_rounded_corner"
+            android:id="@+id/imageView" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1.8">
+
+                <TextView
+                    android:id="@+id/tv_offerTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_view_color"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:text="10% Off on Rings"/>
+
+                <TextView
+                    android:id="@+id/tv_points"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_view_color"
+                    android:layout_marginTop="5dp"
+                    android:textSize="16sp"
+                    android:text="Get 20 Points"/>
+
+                <TextView
+                    android:id="@+id/tv_expiryDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="14sp"
+                    android:text="10% off All items"/>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_deleteBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:layout_gravity="center"
+                android:src="@drawable/ico_delete"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

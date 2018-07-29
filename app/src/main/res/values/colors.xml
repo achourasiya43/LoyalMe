@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1bbc9b</color>
+    <color name="colorPrimaryDark">#1a715d</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="app_gray">#535353</color>
+    <color name="bottom_background_color">@color/colorPrimary</color>
+
+    <color name="white_bg">#ffffff</color>
+    <color name="app_blue_bg">#30578F</color>
+    <color name="light_black_bg">#191919</color>
+    <color name="rippelColor">#FFFFFF</color>
+    <color name="portfolio_color">#E9E3E3</color>
+
+    <color name="light_gray">#ffefefef</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#999999</color>
+    <color name="dark_gray">#ff6c6c6c</color>
+    <color name="red">#D40023</color>
+    <color name="green">#1cba48</color>
+    <color name="blue">#0d70b3</color>
+    <color name="light_blue">#ff0d8cd1</color>
+    <color name="yellow">#ffff00</color>
+
+    <color name="action_button_bar">#f3f3f3</color>
+    <color name="action_button_text">#666666</color>
+    <color name="action_selector_pressed">#1a000000</color>
+    <color name="action_selector_focused">#77000000</color>
+    <color name="text_view_color">#F75A53</color>
+
+    <color name="today">#4b82ff</color>
+    <color name="greyed_out">#c7c7c7</color>
+
+    <color name="summer">#44eebd82</color>
+    <color name="fall">#44d8d27e</color>
+    <color name="winter">#44a1c1da</color>
+    <color name="spring">#448da64b</color>
+
+    <color name="fragment_background">#EAEDF4</color>
+
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_border">#ffafed44</color>
+
+    <color name="actionbar_opacity">#33000000</color>
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="primary_light">#C5CAE9</color>
+    <color name="accent">#E040FB</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+
+</resources>
